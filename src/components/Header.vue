@@ -33,11 +33,21 @@ ul {
   list-style-type: none;
 }
 
-ul li {
+ul li a {
   text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  line-height: 70px;
 }
 
 header {
   justify-content: space-between;
+  height: 70px;
+  margin: 20px 0;
+}
+
+img {
+  max-height: 70px;
 }
 </style>
