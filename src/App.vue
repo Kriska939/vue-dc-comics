@@ -35,11 +35,6 @@ body {
   font-family: "Alegreya Sans SC", sans-serif;
 }
 
-#app {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
 ul li a {
   text-decoration: none;
 }

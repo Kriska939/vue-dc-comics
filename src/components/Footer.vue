@@ -29,7 +29,9 @@
         <li><a href="#">News</a></li>
       </ul>
     </section>
-    <section id="social"></section>
+    <section id="social">
+      <button>SIGN-UP NOW!</button>
+    </section>
   </footer>
 </template>
 
@@ -42,9 +44,10 @@ export default {
 <style>
 #columns {
   display: flex;
+  padding: 50px 0;
+  background-image: url("../assets/img/footer-bg.jpg");
 }
 #columns ul {
-  margin-top: 30px;
   margin-right: 30px;
 }
 
@@ -53,6 +56,25 @@ export default {
 }
 
 #columns ul li a {
-  color: rgb(71, 71, 71);
+  color: darkgray;
+}
+
+#columns h4 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+#social {
+  background-color: rgb(82, 82, 82);
+  height: 150px;
+  line-height: 150px;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid dodgerblue;
+  padding: 13px;
+  color: white;
+  font-size: bold;
 }
 </style>

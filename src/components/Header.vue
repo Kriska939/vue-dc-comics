@@ -36,16 +36,23 @@ nav ul li a {
   color: black;
   padding: 10px;
   font-weight: bold;
-  line-height: 70px;
+  line-height: 80px;
 }
 
 header {
+  max-width: 1100px;
+  margin: 0 auto;
   justify-content: space-between;
-  height: 70px;
-  margin: 20px 0;
+  height: 80px;
+  margin-bottom: 20px;
 }
 
 img {
-  max-height: 70px;
+  max-height: 80px;
+}
+
+header img,
+header nav {
+  margin-top: 10px;
 }
 </style>
