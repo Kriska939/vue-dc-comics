@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="content">
     <h2>---> Content goes here ---></h2>
   </section>
 </template>
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style>
-section {
+#content {
   background-color: black;
   color: white;
   padding: 40px 0;

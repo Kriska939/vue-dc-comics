@@ -28,13 +28,11 @@ export default {
 
 <style>
 header,
-ul {
+nav > ul {
   display: flex;
-  list-style-type: none;
 }
 
-ul li a {
-  text-decoration: none;
+nav ul li a {
   color: black;
   padding: 10px;
   font-weight: bold;

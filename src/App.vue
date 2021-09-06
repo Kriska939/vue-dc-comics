@@ -4,18 +4,21 @@
     <main>
       <Content />
     </main>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
 import Content from "./components/Content.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
     Header,
     Content,
+    Footer,
   },
 };
 </script>
@@ -35,5 +38,13 @@ body {
 #app {
   max-width: 1100px;
   margin: 0 auto;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
 </style>
