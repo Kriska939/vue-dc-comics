@@ -1,0 +1,1 @@
+header,ul{display:flex;list-style-type:none}ul li{text-decoration:none}header{justify-content:space-between}*{margin:0;padding:0;box-sizing:border-box}body{min-height:100vh}#app{max-width:1100px;margin:0}img{max-width:100%;height:auto}
