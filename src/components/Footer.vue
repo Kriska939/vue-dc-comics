@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <section id="columns">
+    <section id="columns" class="container">
       <ul>
         <h4>DC COMICS</h4>
         <li><a href="#">Characters</a></li>
@@ -30,7 +30,9 @@
       </ul>
     </section>
     <section id="social">
-      <button>SIGN-UP NOW!</button>
+      <div class="container">
+        <button>SIGN-UP NOW!</button>
+      </div>
     </section>
   </footer>
 </template>
@@ -41,27 +43,43 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+footer {
+  background-image: url("../assets/img/footer-bg.jpg");
+}
 #columns {
   display: flex;
   padding: 50px 0;
-  background-image: url("../assets/img/footer-bg.jpg");
 }
-#columns ul {
-  margin-right: 30px;
-}
-
-#columns ul li {
-  font-size: 12px;
+#columns {
+  ul {
+    margin-right: 30px;
+  }
 }
 
-#columns ul li a {
-  color: darkgray;
+#columns {
+  ul {
+    li {
+      font-size: 12px;
+    }
+  }
 }
 
-#columns h4 {
-  color: white;
-  margin-bottom: 5px;
+#columns {
+  ul {
+    li {
+      a {
+        color: darkgray;
+      }
+    }
+  }
+}
+
+#columns {
+  h4 {
+    color: white;
+    margin-bottom: 5px;
+  }
 }
 
 #social {
@@ -75,6 +93,10 @@ button {
   border: 2px solid dodgerblue;
   padding: 13px;
   color: white;
-  font-size: bold;
+  font-weight: bold;
+}
+
+#follow {
+  display: flex;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <section id="content">
-    <h2>---> Content goes here ---></h2>
+    <h2 class="container">---> Content goes here ---></h2>
   </section>
 </template>
 

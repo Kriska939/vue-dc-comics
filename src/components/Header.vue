@@ -1,7 +1,7 @@
 <template>
-  <header>
+  <header class="container">
     <figure>
-      <img src="@/assets/img/dc-logo.png" alt="Logo DC" />
+      <img src="@/assets/img/dc-logo.png" alt="Logo DC" class="logo" />
     </figure>
     <nav>
       <ul>
@@ -89,15 +89,13 @@ nav ul li a {
 }
 
 header {
-  max-width: 1100px;
-  margin: 0 auto;
   justify-content: space-between;
-  height: 80px;
-  margin-bottom: 20px;
+  height: 100px;
 }
 
-img {
+.logo {
   max-height: 80px;
+  margin-bottom: 20px;
 }
 
 header img,
