@@ -51,7 +51,8 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
+@import "@/assets/scss/_vars.scss";
 footer {
   background-image: url("../assets/img/footer-bg.jpg");
 }
@@ -92,7 +93,7 @@ footer {
 }
 
 #social {
-  background-color: #303030;
+  background-color: $color-gray;
   height: 100px;
   line-height: 100px;
   position: absolute;
@@ -102,7 +103,7 @@ footer {
 
 button {
   background-color: transparent;
-  border: 2px solid #0282f9;
+  border: 2px solid $color-blue;
   padding: 13px;
   color: white;
   font-weight: bold;
@@ -113,7 +114,7 @@ button {
 #followContainer {
   max-height: 40px;
   h3 {
-    color: #0282f9;
+    color: $color-blue;
     font-size: 24px;
   }
   img {
