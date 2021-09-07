@@ -1,10 +1,10 @@
 <template>
-  <header class="container">
+  <header class="container j-between flex">
     <figure>
       <img src="@/assets/img/dc-logo.png" alt="Logo DC" class="logo" />
     </figure>
     <nav>
-      <ul>
+      <ul class="flex">
         <li v-for="(link, index) in navlinks" :key="index">
           <a href="#">{{ link.text }}</a>
         </li>
@@ -76,11 +76,6 @@ export default {
 </script>
 
 <style>
-header,
-nav > ul {
-  display: flex;
-}
-
 nav ul li a {
   color: black;
   padding: 10px;
@@ -89,7 +84,6 @@ nav ul li a {
 }
 
 header {
-  justify-content: space-between;
   height: 100px;
 }
 

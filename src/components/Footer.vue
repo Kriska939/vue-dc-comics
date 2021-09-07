@@ -30,8 +30,16 @@
       </ul>
     </section>
     <section id="social">
-      <div class="container">
+      <div class="container flex j-between">
         <button>SIGN-UP NOW!</button>
+        <div class="flex" id="followContainer">
+          <h3>Follow Us</h3>
+          <img src="../assets/img/footer-facebook.png" alt="Facebook Logo" />
+          <img src="../assets/img/footer-twitter.png" alt="Twitter Logo" />
+          <img src="../assets/img/footer-youtube.png" alt="Youtube Logo" />
+          <img src="../assets/img/footer-pinterest.png" alt="Pinterest Logo" />
+          <img src="../assets/img/footer-periscope.png" alt="Periscope Logo" />
+        </div>
       </div>
     </section>
   </footer>
@@ -84,7 +92,7 @@ footer {
 }
 
 #social {
-  background-color: rgb(82, 82, 82);
+  background-color: #303030;
   height: 100px;
   line-height: 100px;
   position: absolute;
@@ -94,13 +102,24 @@ footer {
 
 button {
   background-color: transparent;
-  border: 2px solid dodgerblue;
+  border: 2px solid #0282f9;
   padding: 13px;
   color: white;
   font-weight: bold;
+  height: 60px;
+  margin: 20px 0;
 }
 
-#follow {
-  display: flex;
+#followContainer {
+  max-height: 40px;
+  h3 {
+    color: #0282f9;
+    font-size: 24px;
+  }
+  img {
+    margin-top: auto;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
 }
 </style>
