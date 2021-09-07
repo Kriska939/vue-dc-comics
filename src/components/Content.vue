@@ -14,6 +14,7 @@ export default {
 #content {
   background-color: black;
   color: white;
-  padding: 60px 0;
+  padding: 40px 0;
+  position: relative;
 }
 </style>
