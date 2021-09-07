@@ -50,6 +50,7 @@ footer {
 #columns {
   display: flex;
   padding: 50px 0;
+  height: 300px;
 }
 #columns {
   ul {
@@ -84,8 +85,11 @@ footer {
 
 #social {
   background-color: rgb(82, 82, 82);
-  height: 150px;
-  line-height: 150px;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 button {
