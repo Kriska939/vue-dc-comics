@@ -105,9 +105,8 @@ footer {
   background-color: $color-gray;
   height: 100px;
   line-height: 100px;
-  position: absolute;
-  bottom: 0;
   width: 100%;
+  position: relative;
 }
 
 button {
@@ -138,6 +137,7 @@ button {
     width: 70%;
     height: auto;
     margin-top: -20px;
+    margin-bottom: -20px;
   }
 }
 </style>

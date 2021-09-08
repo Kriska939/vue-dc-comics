@@ -1,18 +1,22 @@
 <template>
   <section id="content">
-    <div class="container">
-      <AlbumCard v-for="(album, index) in albumInfo" :key="index" />
+    <div class="container flex">
+      <ComicCard
+        v-for="(comic, index) in comicInfo"
+        :key="index"
+        :comic="comic"
+      />
     </div>
   </section>
 </template>
 
 <script>
-import AlbumCard from "../components/AlbumCard.vue";
+import ComicCard from "./ComicCard.vue";
 export default {
   name: "Content",
   data() {
     return {
-      albumInfo: [
+      comicInfo: [
         {
           thumb:
             "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX",
@@ -101,16 +105,22 @@ export default {
     };
   },
   components: {
-    AlbumCard,
+    ComicCard,
   },
 };
 </script>
 
-<style>
+<style lang="scss">
 #content {
   background-color: black;
   color: white;
   padding: 40px 0;
   position: relative;
+
+  .container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 }
 </style>
