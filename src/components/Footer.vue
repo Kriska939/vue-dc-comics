@@ -8,9 +8,6 @@
           <li><a href="#">Comics</a></li>
           <li><a href="#">Movies</a></li>
           <li><a href="#">Tv</a></li>
-          <li><a href="#">Games</a></li>
-          <li><a href="#">Video</a></li>
-          <li><a href="#">News</a></li>
         </ul>
         <ul>
           <h4>DC COMICS</h4>
@@ -20,6 +17,13 @@
           <li><a href="#">Tv</a></li>
           <li><a href="#">Games</a></li>
           <li><a href="#">Video</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+        <ul>
+          <h4>DC COMICS</h4>
+          <li><a href="#">Test</a></li>
+          <li><a href="#">Test</a></li>
+          <li><a href="#">Test</a></li>
           <li><a href="#">News</a></li>
         </ul>
         <ul>
@@ -63,10 +67,10 @@ footer {
 }
 #columns {
   display: flex;
+  flex-wrap: wrap;
   padding: 50px 0;
   height: 300px;
-}
-#columns {
+  width: 30%;
   ul {
     margin-right: 30px;
   }
