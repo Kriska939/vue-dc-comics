@@ -7,6 +7,7 @@
         :comic="comic"
       />
     </div>
+    <button>LOAD MORE</button>
   </section>
 </template>
 
@@ -111,11 +112,22 @@ export default {
 </script>
 
 <style lang="scss">
+@import "@/assets/scss/_vars.scss";
 #content {
   background-color: black;
   color: white;
   padding: 40px 0;
   position: relative;
+  text-align: center;
+
+  button {
+    background-color: $color-blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid white;
+    margin-top: 10px;
+  }
 
   .container {
     flex-wrap: wrap;
