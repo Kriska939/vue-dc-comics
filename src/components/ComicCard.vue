@@ -14,12 +14,12 @@ export default {
 
 <style scoped lang="scss">
 .comic {
-  max-width: calc(100% / 6);
+  flex-basis: calc(100% / 8);
   text-align: center;
   margin-left: 30px;
+  height: 300px;
   img {
-    width: 100%;
-    height: auto;
+    width: 150px;
   }
 
   h3 {
